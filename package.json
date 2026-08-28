@@ -7,7 +7,7 @@
 		"format": "prettier -w ."
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.0",
+		"@companion-module/base": "~1.4.3",
 		"@companion-module/tools": "^2.8.0",
 		"ping": "^0.4.4"
 	},
