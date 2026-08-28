@@ -1,6 +1,7 @@
 {
 	"name": "novastar-d12",
 	"version": "1.0.0",
+	"license": "MIT",
 	"main": "./src/main.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
