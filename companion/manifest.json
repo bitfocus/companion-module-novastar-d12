@@ -3,7 +3,7 @@
 	"name": "novastar-d12",
 	"shortname": "novastar",
 	"description": "Companion module for Novastar D Series",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-novastar-d12.git",
 	"bugs": "https://github.com/bitfocus/companion-module-novastar-d12/issues",
@@ -15,7 +15,10 @@
 	],
 	"legacyIds": [],
 	"runtime": {
-		"type": "node18",
+		"type": "node26",
+		"permissions": {
+			"child-process": true
+		},
 		"api": "nodejs-ipc",
 		"apiVersion": "1.0.0",
 		"entrypoint": "../src/main.js"
